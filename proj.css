@@ -2,46 +2,51 @@ body {
   background-image: url("./e.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: sans-serif;
 }
+
 .header {
   margin-top: 15px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: aqua;
+  background-color: rgba(58, 55, 55, 0.8);
   padding: 10px;
   border-radius: 12px;
   text-align: center;
+  text-size: 20px;
+  color: white;
 }
-.button {
+
+.btn {
   border: none;
-  color: red;
   text-align: center;
   font-size: 20px;
   margin: 20px;
   cursor: pointer;
-  background-color: aqua;
+  text-decoration: none;
+  padding: 10px 20px;
 }
+.btn:visited {
+  color: white;
+}
+
 .main {
-  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: aqua;
+  background-color: rgba(58, 55, 55, 0.8);
   border-radius: 20px;
   padding: 40px;
-  height: 500px;
+  color: white;
 }
-nav {
-  float: left;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 40%;
-  background-color: aqua;
-  text-align: center;
-  color: blue;
-  font-style: italic;
-  font-size: 50px;
+
+.intro li {
+  padding: 10px 0px;
+  font-size: 18px;
 }
-ul.a {
-  list-style-type: circle;
+
+.pl-sm {
+  padding-left: 20px;
 }
