@@ -5,16 +5,19 @@ body {
   font-family: sans-serif;
 }
 
+.card {
+  background-color: rgba(75, 58, 65, 0.9);
+  padding: 1.4rem 2rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+
 .header {
   margin-top: 15px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: rgba(58, 55, 55, 0.8);
-  padding: 10px;
-  border-radius: 12px;
   text-align: center;
   text-size: 20px;
-  color: white;
 }
 
 .btn {
@@ -36,14 +39,9 @@ body {
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: rgba(58, 55, 55, 0.8);
-  border-radius: 20px;
-  padding: 40px;
-  color: white;
 }
 
-.intro li {
-  padding: 10px 0px;
+.intro {
   font-size: 18px;
 }
 

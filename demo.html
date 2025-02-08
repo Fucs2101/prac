@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .block {
+        display: block;
+      }
+      .inline {
+        display: inline;
+      }
+
+      .bg-gray {
+        background-color: rgb(45, 45, 52);
+      }
+      .text-white {
+        color: white;
+      }
+
+      .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+
+      .p-4 {
+        padding: 1rem;
+      }
+      .m-4 {
+        margin: 1rem;
+      }
+
+      .rounded {
+        border-radius: 0.25rem;
+      }
+      .shadow {
+        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
+      }
+
+      .w-50 {
+        width: 50%;
+      }
+
+      .flex {
+        display: flex;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .flex-row {
+        flex-direction: row;
+      }
+      .flex-row-reverse {
+        flex-direction: row-reverse;
+      }
+
+      .flex-grow {
+        flex-grow: 1;
+      }
+
+      .box {
+        background-color: rgb(55, 55, 64);
+        color: white;
+        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
+        padding: 1rem;
+        margin: 0.4rem;
+        text-align: center;
+        border-radius: 0.4rem;
+        font-family: sans-serif;
+      }
+
+      .sidebar {
+        width: 6rem;
+      }
+      .container {
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex flex-row justify-between">
+      <div class="box">One</div>
+
+      <div class="flex flex-row">
+        <div class="flex flex-col">
+          <div class="box">Two</div>
+          <div class="box">Three</div>
+        </div>
+      </div>
+
+      <div class="box">Four</div>
+    </div>
+  </body>
+</html>
