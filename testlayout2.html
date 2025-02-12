@@ -4,121 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .block {
-        display: block;
-      }
-      ..inline {
-        display: inline;
-      }
-      .bg-gray {
-        background-color: rgb(45, 45, 52);
-      }
-      .text-white {
-        color: white;
-      }
-      .flex {
-        display: flex;
-      }
-      .flex-col {
-        flex-direction: column;
-      }
-      .flex-row {
-        flex-direction: row;
-      }
-      .flex-row-reverse {
-        flex-direction: row-reverse;
-      }
-      .logo {
-        background-color: rgb(55, 55, 64);
-        color: white;
-        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
-        padding: 1.5rem;
-        margin-top: 0.4rem;
-        margin-bottom: 0.4rem;
-        text-align: left;
-        border-radius: 0.4rem;
-        font-family: sans-serif;
-        width: 100%;
-        font-size: 30px;
-      }
-      .header {
-        background-color: rgb(55, 55, 64);
-        color: white;
-        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
-        padding: 4rem;
-        margin-top: 0.4rem;
-        margin-bottom: 0.4rem;
-        text-align: center;
-        border-radius: 0.4rem;
-        font-family: sans-serif;
-        width: 100%;
-        font-size: 30px;
-      }
-      .intro {
-        background-color: rgb(55, 55, 64);
-        color: white;
-        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
-        padding: 3rem;
-        margin-top: 0.2rem;
-        margin-bottom: 0.2rem;
-        text-align: center;
-        border-radius: 0.4rem;
-        font-family: sans-serif;
-        width: 100%;
-        font-size: 30px;
-      }
-      .box {
-        background-color: rgb(55, 55, 64);
-        color: white;
-        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
-        padding: 1.5rem;
-        padding-top: 20rem;
-        padding-bottom: 20rem;
-        margin: 1rem;
-        text-align: center;
-        border-radius: 0.4rem;
-        font-family: sans-serif;
-        width: 100%;
-        font-size: 30px;
-      }
-      .b1 {
-        margin-left: -1rem;
-        margin-right: -1rem;
-      }
-      .foot {
-        background-color: rgb(55, 55, 64);
-        color: white;
-        box-shadow: -5px 3px 11px 0px rgba(0, 0, 0, 0.28);
-        padding: 1.5rem;
-        margin-top: 0.2rem;
-        margin-bottom: 0.2rem;
-        text-align: center;
-        border-radius: 0.4rem;
-        font-family: sans-serif;
-        width: 100%;
-        font-size: 30px;
-      }
-    </style>
+    <link rel="stylesheet" href="./layout.css" />
   </head>
   <body>
-    <div class="flex flex-row">
-      <div class="logo">Logo</div>
-      <div class="logo">Navigation</div>
-    </div>
-    <div class="flex">
-      <div class="header">Header / Banner</div>
-    </div>
-    <div class="flex">
-      <div class="intro">Intro Text Area</div>
-    </div>
-    <div class="flex flex-row b1">
-      <div class="box">Box 1</div>
-      <div class="box">Box 2</div>
-      <div class="box">Box 3</div>
-    </div>
-    <div class="flex">
-      <div class="foot">Footer</div>
+    <div class="flex flex-col flexgap flexgrow">
+      <div class="abc flex flex-row justifybetween">
+        <div class="logo">Logo</div>
+        <div class="navi">Navigation</div>
+      </div>
+      <div class="abc">Header / Banner</div>
+      <div class="abc">Intro Text Area</div>
+      <div class="flex flex-row flexgap height">
+        <div class="abc flexgrow">Box 1</div>
+        <div class="abc flexgrow">Box 2</div>
+        <div class="abc flexgrow">Box 3</div>
+      </div>
+      <div class="abc">Footer</div>
     </div>
   </body>
 </html>
