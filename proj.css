@@ -1,5 +1,5 @@
 body {
-  background-image: url("./e.png");
+  background-image: url("./img/e.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: sans-serif;
@@ -32,19 +32,25 @@ body {
 .btn:visited {
   color: white;
 }
-
 .main {
-  display: flex;
-  flex-direction: row;
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
 }
-
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
 .intro {
   font-size: 18px;
 }
-
+.image {
+  justify-content: space-between;
+}
 .pl-sm {
-  padding-left: 20px;
+  padding-left: 50px;
 }
